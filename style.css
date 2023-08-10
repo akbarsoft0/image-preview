@@ -62,6 +62,17 @@ label {
     border-radius: 5px;
 }
 
+footer {
+    position: fixed;
+    inset: auto 0 0 0;
+    background-color: black;
+}
+
+footer a {
+    padding: 0.4rem 2rem;
+    color: #fff;
+}
+
 @media only screen and (max-width: 600px) {
     h1 {
         font-size: 1.5rem;
@@ -75,5 +86,9 @@ label {
 
     label {
         width: 80%;
+    }
+
+    footer {
+        padding-left: 1rem;
     }
 }
